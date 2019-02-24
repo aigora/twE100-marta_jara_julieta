@@ -1,11 +1,13 @@
-# Título del trabajo
-
-Descripción breve del proyecto a realizar (2-3 frases).
+# Calendario Digital
+La idea del proyecto es realizar un calendario digital en el que poder añadir cosas personales para organizar cada día como reuniones, citas médicas, cumpleaños...
 
 ## Integrantes del equipo
-
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+Marta Vinagre
+Jara Velez
+Julieta Guerrero
 
 ## Objetivos del trabajo
+-Programación en C++
+-Realizar un calendario que sirve de agenda en el que poder apuntar tareas
+-Poder ver las cosas programadas para cada día del mes
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
