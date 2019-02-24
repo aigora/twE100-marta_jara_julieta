@@ -2,12 +2,8 @@
 La idea del proyecto es realizar un calendario digital en el que poder añadir cosas personales para organizar cada día como reuniones, citas médicas, cumpleaños...
 
 ## Integrantes del equipo
-Marta Vinagre
-Jara Velez
-Julieta Guerrero
+Marta Vinagre, Jara Velez y Julieta Guerrero.
 
 ## Objetivos del trabajo
--Programación en C++
--Realizar un calendario que sirve de agenda en el que poder apuntar tareas
--Poder ver las cosas programadas para cada día del mes
+-Programación en C++.Realizar un calendario que sirve de agenda en el que poder apuntar tareas y poder ver las cosas programadas para cada día del mes.
 
