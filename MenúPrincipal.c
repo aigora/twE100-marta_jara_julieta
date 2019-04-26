@@ -1,16 +1,23 @@
-//Menú principal
+//MenÃº principal
 
 #include <stdio.h>
 
-void MENU1();//FUNCION MENU	
+//Funciones de menus y logotipos
+void MENU1();
+void MENUCONTACTOS();
+void MENUTAREAS();
+void LOGOTIPO();
 
-void main () {
+int main () {
 	int opcion1;
+	int salida = 2;//Salir del programa
 	
 	do {
 		//system("cls");
+		LOGOTIPO();
 		MENU1();
 		scanf("%d", &opcion1);
+		fflush (stdin);	
 		getchar();
 		switch (opcion1) {
 			case 1:
@@ -27,19 +34,33 @@ void main () {
 
 			default:printf("Elija entre las opciones del menu\n");
 			}//Final del menu principal	
-	}while (opcion1 !=3 );//Se repite hasta que se decida salir del programa
-	
-	
-
+	}while (salida == 2);//Se repite hasta que se decida salir del programa 
 }
 
-void MENU1() //FUNCION MENU
-{ 
+void MENU1() {  
 	printf("\tElija entre nuestras opciones\n");
-	printf("-->1. Lista de contactos\n"); //MENU: Ver contactos, añadir contacto, eliminar contacto.
-	printf("-->2. Calendario\n");//MENU: Ver calendario, añadir evento, eliminar evento
-	printf("-->3. Salir de la agenda\n");
-	
+	printf("-->1. Lista de contactos\n");//MENU: Ver contactos, aÃ±adir contacto, eliminar contacto.
+	printf("-->2. Calendario\n");//MENU: Ver calendario, aÃ±adir evento, eliminar evento
+	printf("-->3. Salir de la agenda\n");	
 	return;
 }
 
+void MENUCONTACTOS() {
+	printf("\t\tZona CONTACTOS\n");
+	printf("->1. Ver mis contactos\n->2. Guardar un contacto\n->3. Borrar un contacto\n->>4. Volver al menu principal\n");
+	return;
+}
+
+void MENUTAREAS() {
+	printf("\t\tZona TAREAS\n");
+	printf("->1. Ver mis tareas\n->2. Guardar una tarea nueva\n->3. Borrar una tarea\n->>4. Volver al menu principal\n");
+	return;
+}
+
+void LOGOTIPO(){
+	printf("\t\t ____________________________\n");
+	printf("\t\t|         LOGOTIPO           |\n");
+	printf("\t\t|  DE LA AGENDA O CALENDARIO |\n");
+	printf("\t\t|____________________________|\n");
+	printf("\n\n");
+}
