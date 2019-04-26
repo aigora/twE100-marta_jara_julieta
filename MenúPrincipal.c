@@ -11,9 +11,10 @@ void LOGOTIPO();
 int main () {
 	int opcion1;
 	int salida = 2;//Salir del programa
+	int opcion2;
 	
 	do {
-		//system("cls");
+		system("cls");
 		LOGOTIPO();
 		MENU1();
 		scanf("%d", &opcion1);
@@ -21,7 +22,24 @@ int main () {
 		getchar();
 		switch (opcion1) {
 			case 1:
-				printf("Aqui iria la lista de conactos\n");
+				do{
+					system ("cls");
+					LOGOTIPO();
+					MENUCONTACTOS();
+					scanf("%d", &opcion2);
+					fflush (stdin);	
+					getchar();
+					switch (opcion2) {
+						case 1:
+							printf("aqui se ven los contactos"); //ESTO ES UN EJEMPLO PARA VER SI SALE
+							break;
+						case 2:
+							printf("aqui se crea un contacto");
+						case 3:
+							printf("aqui se crea un contacto"); 
+					
+					}
+				}while (opcion2 != 4);			
 				break;
 		
 			case 2:
