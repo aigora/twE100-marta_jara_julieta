@@ -55,7 +55,6 @@ int main (){
 		MENU1();
 		scanf("%d", &opcion1);
 		fflush (stdin);	
-		getchar();
 		switch (opcion1) {
 			case 1:
 				do{
@@ -64,7 +63,6 @@ int main (){
 					MENUCONTACTOS();
 					scanf("%d", &opcion2);
 					fflush (stdin);	
-					getchar();
 					switch (opcion1) {
 						case 2: //guardar un contacto
 							do {
@@ -125,7 +123,6 @@ int main (){
 					MENUTAREAS();
 					scanf("%d", &opcion2);
 					fflush (stdin);	
-					getchar();
 					switch (opcion2) {
 						case 2: //guardar una tarea
 
