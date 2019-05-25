@@ -212,7 +212,6 @@ struct contactos PedirContacto(void) {
 	void telefonoValido(char telefono[10]);//Para comprobar que el telefono es valido
 	
 	printf("Introduzca el nombre del contacto que desea guardar:\n");
-	//gets(contacto.nombre);
 	nombreValido(contacto.nombre);
 	fflush (stdin);	
 	printf("Introduzca el numero de telefono:\n");
